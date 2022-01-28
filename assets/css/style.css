@@ -36,7 +36,8 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 22px;
 }
-/* Footer Styles */
+/* HEADER STYLES END */
+/* Footer Styles Start */
 footer {
     background: #fce138;
     width: 100%;
@@ -56,6 +57,7 @@ footer div {
 footer a {
     color: #024e76;
 }
+/* FOOTER STYLES END */
 /* Section Styling */
 section{
     padding: 60px;
@@ -94,3 +96,14 @@ section{
     width: 100%;
     margin-bottom: 15px;
 }
+.hero-form label {
+    margin: 0 5px;
+}
+.hero-form button {
+    color: #fce138;
+    background-color: #024e76;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+}
+/* HERO STYLES END */
