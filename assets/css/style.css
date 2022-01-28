@@ -56,4 +56,41 @@ footer div {
 footer a {
     color: #024e76;
 }
-
+/* Section Styling */
+section{
+    padding: 60px;
+}
+/* Hero Style Start */
+.hero {
+    background-image: url("../images/hero-bg.jpeg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.hero-form{
+    color: #024e76;
+    background-color: #fce138;
+    border: solid 3px #024e76;
+    padding: 20px;
+    width: 500px;
+    position: absolute;
+    bottom: 120px;
+    right: 140px;
+}
+.hero-form h3 {
+    margin: 0;
+    font-size: 24px;
+}
+.hero-form p {
+    margin: 5px 0 15px 0;
+}
+.form-input {
+    border: 1px solid #024e76;
+    display: block;
+    font-size: 16px;
+    padding: 7px 15px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+}
