@@ -107,8 +107,7 @@ section{
     border: none;
 }
 /* HERO STYLES END */
-/* What We Do Styles Begin */
-/* Section Title Styling for both What We Do AND What You Do */
+/* Utility Classes */
 .section-title{
     font-size: 55px;
     color: #024e76;
@@ -117,12 +116,22 @@ section{
     border-bottom: 3px solid;
     display: inline-block;  
 }
-/* SECTION TITLE STYLING END, Continue What We Do Styles */
-.intro {
-    text-align: center;
-}
 .primary-border {
     border-color: #fce138;
+}
+.secondary-border {
+    border-color: #39a6b2;
+}
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+/* UTILITY STYLES END */
+/* What We Do Styles Begin */
+.intro {
+    text-align: center;
 }
 .intro p {
     line-height: 1.7;
@@ -136,9 +145,6 @@ section{
 .steps {
     text-align: center;
     background-color: #fce138;
-}
-.secondary-border {
-    border-color: #39a6b2;
 }
 .steps div {
     margin-bottom: 80px;
@@ -158,4 +164,37 @@ section{
 }
 .steps span {
     font-size: 38px;
+}
+/* Trainers Styling */
+.trainers {
+    text-align: center;
+}
+.trainer {
+    width: 900px;
+    margin: 0 auto 30px auto;
+    background: #024e76;
+    color: #fce138;
+    overflow: auto;
+}
+.trainer img {
+    width: 35%;
+    float: left;
+}
+.trainer-bio {
+    padding: 35px;
+    float: left;
+    width: 65%;
+}
+.trainer-bio h3 {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+.trainer-bio h4 {
+    font-weight: lighter;
+    font-size: 26px;
+    margin-bottom: 25px;
+}
+.trainer-bio p {
+    font-size: 17px;
+    line-height: 1.3;
 }
